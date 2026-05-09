@@ -69,14 +69,11 @@ This structure improves performance and simplifies analysis in Power BI.
 
 ## 📷 Dashboard Preview
 
-### Executive Overview
-![Overview](images/overview.png)
+![Overview](northwind sales dashboard/images/overview.png)
 
-### Product Analysis
-![Product](images/product.png)
+![Product](northwind sales dashboard/images/product.png)
 
-### Customer Analysis
-![Customer](images/customer.png)
+![Customer](northwind sales dashboard/images/customer.png)
 
 ---
 
