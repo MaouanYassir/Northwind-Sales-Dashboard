@@ -69,14 +69,11 @@ This structure improves performance and simplifies analysis in Power BI.
 
 ## 📷 Dashboard Preview
 
-### Executive Overview
-![Overview](images/overview.png)
+![Overview](overview.png)
 
-### Product Analysis
-![Product](images/product.png)
+![Product](product.png)
 
-### Customer Analysis
-![Customer](images/customer.png)
+![Customer](customer.png)
 
 ---
 
