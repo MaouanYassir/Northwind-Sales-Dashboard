@@ -69,17 +69,14 @@ This structure improves performance and simplifies analysis in Power BI.
 
 ## 📷 Dashboard Preview
 
-![Overview](images/overview2.png)
-![Product](images/product2.png)
-![Customer](images/customer2.png)
+### Executive Overview
 <img width="832" height="712" alt="Image" src="https://github.com/user-attachments/assets/6501fb7a-be3b-4b69-8bad-ef972af5c9c2" />
 
-
 ### Product Analysis
-![Product](<img width="767" height="711" alt="Image" src="https://github.com/user-attachments/assets/188cdf1d-fe35-489b-b6df-4655ec4fef5e" />)
-
-
 <img width="767" height="711" alt="Image" src="https://github.com/user-attachments/assets/188cdf1d-fe35-489b-b6df-4655ec4fef5e" />
+
+### Customer Analysis
+<img width="771" height="720" alt="Image" src="https://github.com/user-attachments/assets/f779f591-1165-47a1-ad6f-f5a1a25439fd" />
 
 ---
 
