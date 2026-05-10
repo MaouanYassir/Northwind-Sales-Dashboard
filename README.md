@@ -72,7 +72,7 @@ This structure improves performance and simplifies analysis in Power BI.
 ![Overview](images/overview2.png)
 ![Product](images/product2.png)
 ![Customer](images/customer2.png)
-
+<img width="832" height="712" alt="Image" src="https://github.com/user-attachments/assets/6501fb7a-be3b-4b69-8bad-ef972af5c9c2" />
 
 
 ### Product Analysis
