@@ -69,11 +69,11 @@ This structure improves performance and simplifies analysis in Power BI.
 
 ## 📷 Dashboard Preview
 
-![Overview](overview.png)
+![Overview](images/overview.png)
 
-![Product](product.png)
+![Product](images/product.png)
 
-![Customer](customer.png)
+![Customer](images/customer.png)
 
 ---
 
