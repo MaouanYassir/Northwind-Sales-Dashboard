@@ -1,91 +1,112 @@
-# 📊 Northwind Sales Dashboard
+# 📊 Northwind Sales Dashboard | SQL Server & Power BI
 
 ## 📌 Project Overview
 
-This project is a complete Business Intelligence solution built using **SQL Server** and **Power BI**.  
-It analyzes sales data from the Northwind database to provide insights into:
+This project is a Business Intelligence solution developed using **SQL Server** and **Power BI**, based on the Northwind sales database.
 
-- Sales performance  
-- Product analysis  
-- Customer behavior  
+The objective is to transform sales data into an analytical model and create interactive dashboards to explore:
 
----
+- Overall sales performance
+- Product performance
+- Customer purchasing behavior
+- Sales trends and year-over-year comparisons
 
 ## 🛠️ Tools & Technologies
 
-- SQL Server (data preparation & modeling)
-- Power BI (data visualization & dashboard)
-- DAX (measures & calculations)
-
----
+- **SQL Server** — Data preparation, transformation, and modeling
+- **SQL** — Views, joins, and analytical queries
+- **Power BI** — Data visualization and interactive reporting
+- **DAX** — Business KPIs and time intelligence calculations
 
 ## 🧱 Data Modeling
 
-A **star schema** was implemented using SQL views:
+A star schema was implemented using SQL Server views to organize the data for analysis in Power BI.
 
+**Fact table:**
 - `vw_fact_sales`
+
+**Dimension tables:**
 - `vw_dim_product`
 - `vw_dim_customer`
 - `vw_dim_employee`
 - `vw_dim_date`
 
-This structure improves performance and simplifies analysis in Power BI.
+This dimensional model simplifies relationships between tables and supports efficient analytical reporting.
 
----
+### Star Schema
 
-## 📊 Dashboard Pages
+![Northwind Star Schema](images/star_schema.png)
+
+## 📊 Power BI Dashboard
+
+The report contains three interactive analytical pages.
 
 ### 1. Executive Overview
-- KPIs: Total Sales, Total Orders, Total Customers, YoY Growth
-- Monthly sales trend
-- Sales comparison vs previous year
+
+Provides an overview of business performance through:
+
+- Total Sales
+- Total Orders
+- Total Customers
+- Sales YoY Growth
+- Monthly sales trends
+- Sales compared with the previous year
 - Sales by category and country
 
----
+![Northwind Executive Overview](images/overview.png)
 
 ### 2. Product Analysis
-- Top 10 products by sales
-- Top 10 products by quantity
-- Sales by category
-- Interactive filters (Country, Category)
 
----
+Explores product performance through:
+
+- Top 10 products by sales
+- Top 10 products by quantity sold
+- Sales distribution by category
+- Interactive country and category filters
+
+![Northwind Product Analysis](images/product.png)
 
 ### 3. Customer Analysis
+
+Analyzes customer behavior through:
+
 - Top 10 customers by sales
 - Top 10 customers by number of orders
 - Top 10 customers by average order value
 - Customer segmentation insights
 
----
+![Northwind Customer Analysis](images/customer.png)
 
 ## 📈 Key Insights
 
-- Some products generate high revenue but low volume  
-- High-frequency customers do not always have high spending  
-- A small number of customers contribute significantly to total revenue  
+The analysis highlights several business patterns:
 
----
-
-## 📷 Dashboard Preview
-
-### Executive Overview
-<img width="832" height="712" alt="Image" src="https://github.com/user-attachments/assets/6501fb7a-be3b-4b69-8bad-ef972af5c9c2" />
-
-### Product Analysis
-<img width="767" height="711" alt="Image" src="https://github.com/user-attachments/assets/188cdf1d-fe35-489b-b6df-4655ec4fef5e" />
-
-### Customer Analysis
-<img width="771" height="720" alt="Image" src="https://github.com/user-attachments/assets/f779f591-1165-47a1-ad6f-f5a1a25439fd" />
-
----
-
-## 🚀 How to Use
-
-1. Open the `.pbix` file in Power BI Desktop  
-2. Refresh the data if needed  
-3. Use slicers to explore the dashboard  
-
----
+- Some products generate high revenue despite relatively low sales volumes.
+- Customers who place frequent orders are not necessarily the highest-spending customers.
+- A relatively small group of customers contributes a significant share of total sales.
 
 ## 📁 Repository Structure
+
+```text
+northwind-sales-dashboard/
+├── images/
+│   ├── overview.png
+│   ├── product.png
+│   ├── customer.png
+│   └── star_schema.png
+├── README.md
+└── Other project files
+```
+
+## 🚀 How to Explore the Project
+
+1. Review the SQL scripts and dimensional model, where available in the repository.
+2. Open the Power BI `.pbix` file in Power BI Desktop, if included.
+3. Configure the required SQL Server data connection before refreshing.
+4. Explore the interactive dashboards using the available slicers.
+
+## 🎯 Project Purpose
+
+This project demonstrates practical skills in SQL, relational data modeling, DAX, and Power BI dashboard development.
+
+It was developed as part of a Data Analyst / Business Intelligence portfolio.
